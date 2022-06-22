@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fetures ▾</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="#">Blue</a></li>
+                        <li><a href="#">Black</a></li>
+                        <li><a href="#">Pink</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li><a href="#">Services ▾</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="#">Blue</a></li>
+                        <li><a href="#">Black</a></li>
+                        <li><a href="#">Pink</a></li>
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES
+  " method="post">
+        <input type="hidden" name="send_to" value="venweoru@gmail.com">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name"> Your name</label>
+            <input type="text" name="name" id="name"     placeholder="Full name">
+
+            <label for="phone">Your phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number">
+
+            <label for="email">Your email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="age">Your age</label>
+            <input type="number" name="age" id="age" placeholder="Age">
+        </fieldset>
+
+        <fieldset>
+            <legend>About your abduction</legend>
+            <label for="date">Request date</label>
+            <input type="date" name="date" id="date">
+
+            <label for="qty">How many people do you want abducted?</label>
+            <input type="number" name="number" id="number" min="1" max="10">
+
+            <p>What state do you prefer?</p>
+            <label>
+                <input type="radio" name="state" value="lagos" checked>Lagos
+            </label>
+
+            <label>
+                <input type="radio" name="state" value="aba">Aba
+            </label>
+
+            <label>
+                <input type="radio" name="state" value="Ogun">Ogun
+            </label>
+
+            <label for="uni">What university do you attend?</label>
+            <select id="uni">
+                <option value="" selected>Select one option....</option>
+                <option value="funai">FUNAI</option>
+                <option value="funaab">FUNAAB</option>
+                <option value="unilag">UNILAG</option>
+                <option value="uniben">UNIBEN</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="e-signup" checked>Join my email list
+            </label>
+
+            <textarea name="comment" id="" cols="30" rows="1 0"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.1438540163612!2d3.336511127225952!3d6.448518825818134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b897d1748a3a7%3A0x21ff5b63e89b491!2s59%20Kirikiri%20Rd%2C%20Apapa%20102103%2C%20Lagos!5e0!3m2!1sen!2sng!4v1655916345175!5m2!1sen!2sng"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JA2k2IQIU9w" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+</body>
+</html>
