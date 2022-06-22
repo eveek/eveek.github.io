@@ -1,0 +1,240 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    background-color: rgb(255, 252, 252);
+
+}
+
+
+header .h-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1550px;
+    height: 100px;
+    box-sizing: border-box;
+
+}
+
+header .h-wrap .navigation{
+    display: flex;
+    align-items: center;
+}
+
+header .h-wrap .navigation .nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    width: 400px;
+    justify-content: space-between;
+
+}
+
+header .h-wrap .navigation .nav{
+    top: 200px;
+}
+
+header .h-wrap .nav2{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+}
+
+header .h-wrap .nav2 div a input:hover{
+    color: black;
+    border: 1.5px solid black;
+}
+
+header .h-wrap .navigation .logo{
+    align-items: center;
+}
+
+header .h-wrap .navigation .logo img{
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 35px;
+    
+}
+
+header .h-wrap .nav2 div a input {
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1.5px solid rgb(99, 97, 97);
+    background-color: transparent;
+    color: rgb(99, 97, 97);
+    font-size: 18px;
+}
+
+header .h-wrap .navigation .nav ul li .sub1 ul{
+    display:list-item;
+    background-color: white;
+    width: 110px;
+    margin-top: 0px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 5px 20px rgb(202, 202, 202);
+    border-radius: 15px;
+    position: absolute;
+    left: 150px;
+}
+
+header .h-wrap .navigation .nav ul li .sub2 ul{
+    display: list-item;
+    background-color: white;
+    width: 90px;
+    margin-top: 0px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 5px 20px rgb(202, 202, 202);
+    border-radius: 15px;
+    position: absolute;
+    left: 335px;
+    line-height: 22px;
+    
+}
+
+
+header .h-wrap .navigation .nav ul li ul li{
+    padding-top: 20px;
+    display: block;
+}
+
+header .h-wrap .navigation .nav ul li label{
+    display: block;
+}
+
+header .h-wrap .navigation .nav ul li:hover .sub1 ul{
+    display: block;
+}
+
+.sub1{
+    display: none;
+}
+
+.sub2{
+    display: none;
+}
+
+
+.f1:hover + .sub1{
+    display: block;
+}
+
+.f2:hover + .sub2{
+    display: block;
+}
+
+.sub1:hover{
+    display: block;
+}
+
+.sub2:hover{
+    display: block;
+}
+
+
+
+
+
+
+
+main .content{
+    /* display:; */
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: 50px auto;
+    
+
+}
+
+main .content .c1{
+    float: right;
+}
+
+main .content .c2{
+    padding-top: 5px;
+    height: 800px;
+    
+}
+
+main .content .c1 img{
+    width: 600px;
+    height: 800px;
+}
+
+main .content .c2 h1{
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+    margin-top: 170px;
+}
+
+main .content .c2 p{
+    font-size: 23px;
+    color: rgb(99, 97, 97);
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+main .content .c2 button{
+    padding: 20px 40px;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    
+}
+
+main .content .c2 .last img{
+    margin-right: 60px;
+
+}
+
+main .content .c2 button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1.5px solid black;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width: 540px){
+    main .content .c1 img{
+        width: 500px;
+        height: 300px;
+    }
+        main .content .c1 {
+            padding: 0px;
+            margin: 10px 0px;
+        }
+
+}
